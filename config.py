@@ -14,10 +14,10 @@ API_HASH = getenv("API_HASH",)
 BOT_TOKEN = getenv("BOT_TOKEN",)
 
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "Systumm_music_bot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "purvi_music_bot")
 
 # Get Your repo
-REPO_LINK = getenv("REPO_LINK" , "https://t.me/BRANDED_PAID_CC")
+REPO_LINK = getenv("REPO_LINK" , "https://t.me/PURVI_SUPPORT")
 
 # Don't Add style font 
 BOT_NAME = getenv("BOT_NAME" , "Sytumm")
@@ -41,18 +41,18 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/WCGKING/SYSTUM",
+    "https://github.com/istkharalam6202/SYSTUM",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/BRANDRD_BOT")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/BRANDED_WORLD")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/PURVI_SUPPORT")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+QExD9mtKnz5hNjY1")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
-AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
+AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
 
 
 # Get this credentials from https://developer.spotify.com/dashboard
